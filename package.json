@@ -1,0 +1,24 @@
+{
+  "name": "exit",
+  "version": "0.2.0",
+  "private": true,
+  "description": "AI-assisted task & schedule manager, converted from the original HTML/CSS/JS project to Next.js (App Router, plain JavaScript). Same Supabase backend, same features, same styles.",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "^16.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
